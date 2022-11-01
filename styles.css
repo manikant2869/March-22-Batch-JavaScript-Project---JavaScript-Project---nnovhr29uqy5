@@ -1,1 +1,83 @@
+body{
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    text-transform:capitalize;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 2%;
+    height: 500px;
+    width:300px;
+    background: #000000b3;
+    color:aliceblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
 
+.calculatorScreen .screen{
+    box-sizing: border-box;
+    margin-top: 1%;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: right;
+    font-size: xx-large;
+    color:white;
+    background: rgba(0, 0, 0, 0.904);
+    pointer-events: none;
+}
+.allButton{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.btn{
+    width: 60px;
+    height:52px;
+    font-size: 22px;
+    border-radius: 6px;
+    cursor:pointer;
+    border:0;
+    margin:5px;
+    padding:1%;
+}
+.btn-yellow{
+    background-color: chocolate;
+}
+.btn-grey{
+    background-color: gray;
+}
+.btn-clear{
+    background:red;
+    width: 60px;
+    height: 52px;
+    margin:5px;
+    padding:1%;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.btn-equal{
+    background-color:green;
+    width: 60px;
+    height: 52px;
+    margin:5px;
+    padding:1%;
+    border-radius: 6px;
+    cursor:pointer;
+}
